@@ -1,2 +1,2 @@
 [webservers]
-15.206.178.211 ansible_connection=ssh ansible_user=somak ansible_ssh_pass=monkey
+15.206.178.211 ansible_user=ubuntu
