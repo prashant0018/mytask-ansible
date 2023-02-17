@@ -2,7 +2,7 @@
 - hosts: webservers 
   become: True
   tasks:
-    - name: Install packages for target VM
+    - name: Install packages for target VM Somak
       apt:
         name: "nginx"
         state: "present"
