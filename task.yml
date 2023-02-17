@@ -8,7 +8,7 @@
         state: "present"
     - name: Install packages for target VM Somak
       apt:
-        name: "httpd"
+        name: "apache2"
         state: "present"
    
 ...
