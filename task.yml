@@ -2,7 +2,7 @@
 - hosts: webservers 
   become: True
   tasks:
-    - name: Install packages for target
+    - name: Install packages
       apt:
         name: "nginx"
         state: "present"
