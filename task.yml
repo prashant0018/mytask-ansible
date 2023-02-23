@@ -2,11 +2,11 @@
 - hosts: webservers 
   become: True
   tasks:
-    - name: Install packages
+    - name: Install packages for My Team
       apt:
         name: "nginx"
         state: "present"
-    - name: Install packages for target
+    - name: Install packages for My Team
       apt:
         name: "apache2"
         state: "present"
