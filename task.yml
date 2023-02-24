@@ -6,7 +6,7 @@
       apt:
         name: "nginx"
         state: "present"
-    - name: Install package for demo
+    - name: Install package 
       apt:
         name: "apache2"
         state: "present"
