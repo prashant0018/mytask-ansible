@@ -2,7 +2,7 @@
 - hosts: webservers 
   become: True
   tasks:
-    - name: Install packages for My Team for harshita
+    - name: Install packages for Team for harshita
       apt:
         name: "nginx"
         state: "present"
